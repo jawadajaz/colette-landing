@@ -69,7 +69,19 @@
 ====================================================================
 
 ***/
-
+*{
+  scroll-behavior: smooth;
+}
+.mobile-fixed-btn{
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+}
+.scroll-to-top{
+  bottom: 55px;
+  right: 10px;
+}
 .main-header {
   position: fixed;
   left: 0;

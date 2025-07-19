@@ -2172,6 +2172,12 @@ body.visible-sidebar {
   height: 100%;
   padding-left: 70px;
 }
+@media (max-width: 991px) {
+  .menu-tabs .menu-col .inner {
+    padding-left: 0;
+    padding: 20px !important    ;
+  }
+}
 
 .menu-tabs .menu-col.img-col {
   text-align: center;
